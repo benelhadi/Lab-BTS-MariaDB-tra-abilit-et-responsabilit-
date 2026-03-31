@@ -6,7 +6,8 @@ Mettre en œuvre un environnement MariaDB dans GitHub Codespaces afin de :
 - manipuler des utilisateurs SQL ;
 - tester les droits d'accès ;
 - simuler un incident de suppression ;
-- analyser la traçabilité et la responsabilité.
+- analyser la traçabilité et la responsabilité ;
+- exploiter une table d'audit SQL.
 
 ## Lancement rapide
 
@@ -21,6 +22,7 @@ Dans le terminal :
     bash scripts/show-clients.sh
     bash scripts/connect-operateur1.sh
     bash scripts/connect-callmanager1.sh
+    bash scripts/show-audit.sh
 
 ## Documents disponibles
 - `docs/01-contexte.md`
@@ -28,3 +30,5 @@ Dans le terminal :
 - `docs/03-questions.md`
 - `docs/04-correction-formateur.md`
 - `docs/05-grille-evaluation.md`
+- `docs/06-correction-analyse.md`
+- `docs/07-fiche-enseignant.md`
