@@ -20,4 +20,8 @@ echo "=== Etat final de la table clients ==="
 bash scripts/show-clients.sh
 
 echo
+echo "=== Table d'audit ==="
+bash scripts/show-audit.sh
+
+echo
 echo "Démo terminée."

@@ -1,7 +1,7 @@
 # Consignes étudiants
 
 ## Objectif
-Mettre en œuvre une base de données MariaDB et analyser les actions réalisées par différents utilisateurs.
+Mettre en œuvre une base de données MariaDB, tester des droits d'accès et analyser la traçabilité des actions à l'aide d'une table d'audit.
 
 ## Étape 1 - Démarrer MariaDB
     bash scripts/start-mariadb.sh
@@ -41,8 +41,11 @@ Quitter avec :
 ## Étape 6 - Vérifier l'état final de la table
     bash scripts/show-clients.sh
 
-## Étape 7 - Réinitialiser si besoin
+## Étape 7 - Afficher la table d'audit
+    bash scripts/show-audit.sh
+
+## Étape 8 - Réinitialiser si besoin
     bash scripts/reset-db.sh
 
-## Étape 8 - Répondre aux questions d'analyse
+## Étape 9 - Répondre aux questions d'analyse
 Voir `docs/03-questions.md`
